@@ -1,0 +1,42 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Implements the functionality needed to run the Future YOU App Calculations",
+        "title": "Future YOU Application API",
+        "termsOfService": "https://site.futureyou.tech/terms",
+        "contact": {
+            "email": "guy.fletcher.773@gmail.com"
+        },
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/bar": {
+            "get": {
+                "description": "Example endpoint for the bar route",
+                "summary": "Returns the URL for the bar route",
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/ind": {
+            "get": {
+                "description": "Example endpoint for the index route",
+                "summary": "Returns the URL for the index route",
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

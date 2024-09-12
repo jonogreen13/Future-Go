@@ -1,0 +1,27 @@
+info:
+  contact:
+    email: guy.fletcher.773@gmail.com
+  description: Implements the functionality needed to run the Future YOU App Calculations
+  termsOfService: https://site.futureyou.tech/terms
+  title: Future YOU Application API
+  version: 1.0.0
+paths:
+  /bar:
+    get:
+      description: Example endpoint for the bar route
+      responses:
+        "200":
+          description: Success
+          schema:
+            type: string
+      summary: Returns the URL for the bar route
+  /ind:
+    get:
+      description: Example endpoint for the index route
+      responses:
+        "200":
+          description: Success
+          schema:
+            type: string
+      summary: Returns the URL for the index route
+swagger: "2.0"
